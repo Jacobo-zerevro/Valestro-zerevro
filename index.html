@@ -1,102 +1,118 @@
-<!DOCTYPE html>
-<html lang="es">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VALESTRO - Motocicletas Deportivas de Alto Rendimiento</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; }
-        html { scroll-behavior: smooth; }
-        .text-shadow-lg { text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); }
-        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .8; } }
-        @keyframes bounce { 0%, 100% { transform: translateY(-25%); } 50% { transform: none; } }
-        .animate-pulse { animation: pulse 2s infinite; }
-        .animate-bounce { animation: bounce 1s infinite; }
-    </style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px 'Helvetica Neue'; min-height: 15.0px}
+  </style>
 </head>
 <body>
-    <div class="min-h-screen">
-        <!-- Hero Section -->
-        <section class="relative h-screen w-full overflow-hidden">
-            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')"></div>
-            <div class="absolute inset-0 bg-black bg-opacity-40"></div>
-            
-            <div class="relative z-10 h-full flex items-center justify-center">
-                <div class="text-center text-white px-6 max-w-4xl">
-                    <h1 class="text-4xl md:text-6xl lg:text-8xl font-thin tracking-widest mb-6 leading-tight">
-                        <span class="block animate-pulse">PODER.</span>
-                        <span class="block animate-pulse" style="animation-delay: 0.5s">PRECISIÓN.</span>
-                        <span class="block text-yellow-400 animate-pulse" style="animation-delay: 1s">VALESTRO.</span>
-                    </h1>
-                    <p class="text-lg md:text-xl lg:text-2xl font-light text-gray-200 max-w-2xl mx-auto">
-                        Motocicletas deportivas de alto rendimiento.<br>
-                        Diseñadas para dominar.
-                    </p>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Modelos Section -->
-        <section class="bg-gray-800 py-20 px-6">
-            <div class="max-w-7xl mx-auto">
-                <h2 class="text-3xl md:text-5xl font-thin text-center text-white mb-16">
-                    NUESTROS <span class="text-yellow-400">MODELOS</span>
-                </h2>
-                
-                <div class="grid md:grid-cols-3 gap-8">
-                    <div class="bg-black rounded-lg p-6 border border-gray-800 hover:border-yellow-400 transition-colors">
-                        <div class="h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg mb-6 flex items-center justify-center">
-                            <span class="text-yellow-400 text-6xl">🏍️</span>
-                        </div>
-                        <h3 class="text-2xl font-light text-white mb-2">IMPULSO RR</h3>
-                        <p class="text-yellow-400 font-medium mb-4">SUPERBIKE DE COMPETICIÓN</p>
-                        <p class="text-gray-300 text-sm mb-4">Potencia extrema de 220 HP. Diseñada para dominar circuitos.</p>
-                        <div class="flex justify-between text-sm text-white">
-                            <span class="text-yellow-400">320 KM/H</span>
-                            <span>VELOCIDAD MÁXIMA</span>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-black rounded-lg p-6 border border-gray-800 hover:border-yellow-400 transition-colors">
-                        <div class="h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg mb-6 flex items-center justify-center">
-                            <span class="text-yellow-400 text-6xl">🏍️</span>
-                        </div>
-                        <h3 class="text-2xl font-light text-white mb-2">COMBAT S</h3>
-                        <p class="text-yellow-400 font-medium mb-4">STREETFIGHTER AGRESIVA</p>
-                        <p class="text-gray-300 text-sm mb-4">Naked bike con 195 HP. Agresividad pura para las calles.</p>
-                        <div class="flex justify-between text-sm text-white">
-                            <span class="text-yellow-400">295 KM/H</span>
-                            <span>VELOCIDAD MÁXIMA</span>
-                        </div>
-                    </div>
-                    
-                    <div class="bg-black rounded-lg p-6 border border-gray-800 hover:border-yellow-400 transition-colors">
-                        <div class="h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg mb-6 flex items-center justify-center">
-                            <span class="text-yellow-400 text-6xl">🏍️</span>
-                        </div>
-                        <h3 class="text-2xl font-light text-white mb-2">MACH-X</h3>
-                        <p class="text-yellow-400 font-medium mb-4">HYPERSPORT EXTREMA</p>
-                        <p class="text-gray-300 text-sm mb-4">La máquina más rápida. 240 HP de pura adrenalina.</p>
-                        <div class="flex justify-between text-sm text-white">
-                            <span class="text-yellow-400">340 KM/H</span>
-                            <span>VELOCIDAD MÁXIMA</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Footer -->
-        <footer class="bg-green-600 text-white py-16 px-6">
-            <div class="max-w-4xl mx-auto text-center">
-                <div class="bg-yellow-400 text-black inline-block px-8 py-4 rounded-lg font-bold text-xl mb-4">
-                    VALESTRO
-                </div>
-                <p class="text-green-100">© 2024 VALESTRO S.p.A. Todos los derechos reservados.</p>
-            </div>
-        </footer>
-    </div>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="es"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;VALESTRO - Motocicletas Deportivas de Alto Rendimiento&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>html { scroll-behavior: smooth; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.text-shadow-lg { text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: .8; } }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@keyframes bounce { 0%, 100% { transform: translateY(-25%); } 50% { transform: none; } }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.animate-pulse { animation: pulse 2s infinite; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.animate-bounce { animation: bounce 1s infinite; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="min-h-screen"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Hero Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section class="relative h-screen w-full overflow-hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url('https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1920&amp;h=1080&amp;fit=crop')"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="absolute inset-0 bg-black bg-opacity-40"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="relative z-10 h-full flex items-center justify-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="text-center text-white px-6 max-w-4xl"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h1 class="text-4xl md:text-6xl lg:text-8xl font-thin tracking-widest mb-6 leading-tight"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="block animate-pulse"&gt;PODER.&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="block animate-pulse" style="animation-delay: 0.5s"&gt;PRECISIÓN.&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;span class="block text-yellow-400 animate-pulse" style="animation-delay: 1s"&gt;VALESTRO.&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-lg md:text-xl lg:text-2xl font-light text-gray-200 max-w-2xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Motocicletas deportivas de alto rendimiento.&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>Diseñadas para dominar.</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Modelos Section --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section class="bg-gray-800 py-20 px-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="max-w-7xl mx-auto"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-3xl md:text-5xl font-thin text-center text-white mb-16"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>NUESTROS &lt;span class="text-yellow-400"&gt;MODELOS&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                </span></p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="grid md:grid-cols-3 gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="bg-black rounded-lg p-6 border border-gray-800 hover:border-yellow-400 transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg mb-6 flex items-center justify-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-yellow-400 text-6xl"&gt;🏍️&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl font-light text-white mb-2"&gt;IMPULSO RR&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-yellow-400 font-medium mb-4"&gt;SUPERBIKE DE COMPETICIÓN&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-gray-300 text-sm mb-4"&gt;Potencia extrema de 220 HP. Diseñada para dominar circuitos.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex justify-between text-sm text-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-yellow-400"&gt;320 KM/H&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span&gt;VELOCIDAD MÁXIMA&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="bg-black rounded-lg p-6 border border-gray-800 hover:border-yellow-400 transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg mb-6 flex items-center justify-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-yellow-400 text-6xl"&gt;🏍️&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl font-light text-white mb-2"&gt;COMBAT S&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-yellow-400 font-medium mb-4"&gt;STREETFIGHTER AGRESIVA&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-gray-300 text-sm mb-4"&gt;Naked bike con 195 HP. Agresividad pura para las calles.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex justify-between text-sm text-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-yellow-400"&gt;295 KM/H&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span&gt;VELOCIDAD MÁXIMA&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">                    </span></p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="bg-black rounded-lg p-6 border border-gray-800 hover:border-yellow-400 transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="h-48 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg mb-6 flex items-center justify-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-yellow-400 text-6xl"&gt;🏍️&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h3 class="text-2xl font-light text-white mb-2"&gt;MACH-X&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-yellow-400 font-medium mb-4"&gt;HYPERSPORT EXTREMA&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-gray-300 text-sm mb-4"&gt;La máquina más rápida. 240 HP de pura adrenalina.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="flex justify-between text-sm text-white"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span class="text-yellow-400"&gt;340 KM/H&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;span&gt;VELOCIDAD MÁXIMA&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Footer --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;footer class="bg-green-600 text-white py-16 px-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="max-w-4xl mx-auto text-center"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-yellow-400 text-black inline-block px-8 py-4 rounded-lg font-bold text-xl mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>VALESTRO</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-green-100"&gt;© 2024 VALESTRO S.p.A. Todos los derechos reservados.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
 </body>
 </html>
